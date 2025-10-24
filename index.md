@@ -12,7 +12,7 @@ To use the map, you can click directly into the embedded map below or [click her
 
 Zoom using the + and - buttons or scroll with your mouse. Open and close the legend by clicking the button on the top right. For the legend, you can turn certain layers off and on by deselecting/selecting them. Within the map, you can click on an area to read information on permit activity, population, building codes, and contact information for the building official. You can search up addresses by clicking onto the search button at the top right. You can also measure distances or areas between places using the measuring tool. Click the tool again to exit the function. 
 
-<iframe src="map.html" height="700" width="900"></iframe>
+<iframe src="map.html" height="700" width="800"></iframe>
 
 [Click to view the map at its full extent](map.html)
 
