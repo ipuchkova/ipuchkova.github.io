@@ -18,7 +18,6 @@ The municipalities noted on the map make up approximately 92% of all residential
 
 [Click to view the map at its full extent](map.html)
 
-<iframe src="map.html" height="700" width="800"></iframe>
 Data to build this map was sourced from various government websites across the state. Population data was sourced from the US Census 2020. Residential permit data was sourced from the US Census as well. Commercial permit data was sourced from the Pacific Northwest National Laboratory. QGIS and OpenStreetMap was used to build this map. 
 
 
