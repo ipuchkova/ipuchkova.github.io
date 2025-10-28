@@ -14,7 +14,7 @@ function categories_AmendedCountyCodes_3(feature, value, size, resolution, label
                     break;
 case 'No noted amendments':
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(11,4,5,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 1.3679999999999999}),
+        stroke: new ol.style.Stroke({color: 'rgba(0,0,0,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 1.3679999999999999}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)

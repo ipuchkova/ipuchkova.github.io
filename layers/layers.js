@@ -94,10 +94,9 @@ var lyr_AmendedCityCodes_5 = new ol.layer.Vector({
                 popuplayertitle: 'Amended City Codes',
                 interactive: false,
     title: 'Amended City Codes<br />\
-    <img src="styles/legend/AmendedCityCodes_5_0.png" /> Follows North Dakota State Building Code<br />\
-    <img src="styles/legend/AmendedCityCodes_5_1.png" /> Significantly amended<br />\
-    <img src="styles/legend/AmendedCityCodes_5_2.png" /> Heavily amended<br />\
-    <img src="styles/legend/AmendedCityCodes_5_3.png" /> No noted amendments<br />' });
+    <img src="styles/legend/AmendedCityCodes_5_0.png" /> Amended<br />\
+    <img src="styles/legend/AmendedCityCodes_5_1.png" /> Follows North Dakota State Building Code<br />\
+    <img src="styles/legend/AmendedCityCodes_5_2.png" /> No noted amendments<br />' });
 
 lyr_OpenStreetMap_0.setVisible(true);lyr_State_Boundary_1.setVisible(true);lyr_CountyCodes_2.setVisible(true);lyr_AmendedCountyCodes_3.setVisible(true);lyr_CityCodes_4.setVisible(true);lyr_AmendedCityCodes_5.setVisible(true);
 var layersList = [lyr_OpenStreetMap_0,lyr_State_Boundary_1,lyr_CountyCodes_2,lyr_AmendedCountyCodes_3,lyr_CityCodes_4,lyr_AmendedCityCodes_5];

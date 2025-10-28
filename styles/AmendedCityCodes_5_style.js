@@ -4,7 +4,15 @@ function categories_AmendedCityCodes_5(feature, value, size, resolution, labelTe
                        labelFont, labelFill, bufferColor, bufferWidth,
                        placement) {
                 var valueStr = (value !== null && value !== undefined) ? value.toString() : 'default';
-                switch(valueStr) {case 'Follows North Dakota State Building Code':
+                switch(valueStr) {case 'Amended':
+                    return [ new ol.style.Style({
+        stroke: new ol.style.Stroke({color: 'rgba(160,15,228,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 1.3679999999999999}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement, bufferColor,
+                              bufferWidth)
+    })];
+                    break;
+case 'Follows North Dakota State Building Code':
                     return [ new ol.style.Style({
         stroke: new ol.style.Stroke({color: 'rgba(31,120,180,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 1.3679999999999999}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
@@ -12,25 +20,9 @@ function categories_AmendedCityCodes_5(feature, value, size, resolution, labelTe
                               bufferWidth)
     })];
                     break;
-case 'Significantly amended':
-                    return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(106,26,235,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 1.3679999999999999}),
-        text: createTextStyle(feature, resolution, labelText, labelFont,
-                              labelFill, placement, bufferColor,
-                              bufferWidth)
-    })];
-                    break;
-case 'Heavily amended':
-                    return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(202,37,173,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 1.3679999999999999}),
-        text: createTextStyle(feature, resolution, labelText, labelFont,
-                              labelFill, placement, bufferColor,
-                              bufferWidth)
-    })];
-                    break;
 case 'No noted amendments':
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(11,4,5,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 1.3679999999999999}),
+        stroke: new ol.style.Stroke({color: 'rgba(0,0,0,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 1.3679999999999999}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
